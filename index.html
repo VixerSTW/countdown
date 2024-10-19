@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="warning">
+        <p>Warning: This site contains flashing content that may potentially trigger seizures for people with photosensitive epilepsy. Proceed with caution.</p>
+        <button onclick="document.getElementById('warning').style.display='none'; startFlashingInversion();">Acknowledge and Continue</button>
+    </div>
+    <header>
+        <h1>Countdown to Death</h1>
+        <nav>
+            <ul>
+                <li><a href="#countdown">Countdown</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="countdown">
+            <h2>Time Left Until...</h2>
+            <div id="timer">
+                <span id="days">00</span> Days
+                <span id="hours">00</span> Hours
+                <span id="minutes">00</span> Minutes
+                <span id="seconds">00</span> Seconds
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About This Countdown</h2>
+            <p>This is a morbid countdown for entertainment or contemplation purposes. Choose a date to count down to your hypothetical end.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Death Countdown. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

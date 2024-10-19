@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #b30000;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+#timer {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+section {
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 0, 0, 0.3);
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+/* Warning message styling */
+#warning {
+    background: #ff0000;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    text-align: center;
+}
+
+/* Inverted color effect */
+.inverted {
+    filter: invert(1);
+}
